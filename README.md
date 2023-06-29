@@ -1,5 +1,9 @@
 ﻿# Spotify-Clone
-This is clone of Spotify.
+This is simple version of Spotify. You can:
+1. Add songs.
+2. Play/pause songs.
+3. Jump to previous/next song.
+4. Jump to random song of choice.
 
 # Teck Stack
 1. HTML
