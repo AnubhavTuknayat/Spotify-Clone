@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+    
+    
+    <nav class=" bg-black h-[60px] w-full p-1">
+        <ul class="flex justify-start items-center text-white gap-8 font-poppins font-semibold text-lg">
+            <li class="flex items-center">
+                <img src="/images/logo.png" class=" h-[50px]">
+                <h3 class=" font-medium">Spotify</h3>
+            </li>
+            <li class="hover:opacity-80 hover:scale-110 transition-all duration-200 cursor-pointer">Home</li>
+            <li class="hover:opacity-80 hover:scale-110 transition-all duration-200 cursor-pointer">About</li>
+        </ul>
+    </nav>
+
+    
+    <div class="main-section my-5 bg-musicbg bg-cover h-full w-[70%] mx-auto shadow-2xl shadow-black rounded-md p-4">
+            <h1 class="text-white font-poppins text-2xl font-[600] mb-4">My playlist</h1>
+            
+            <div class="song-list flex flex-col gap-1 font-poppins font-extrabold">
+                
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>2:39</span>
+                    <i id="1" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:58</span>
+                    <i id="2" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:36</span>
+                    <i id="3" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:49</span>
+                    <i id="4" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:11</span>
+                    <i id="5" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>4:00</span>
+                    <i id="6" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:21</span>
+                    <i id="7" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img  class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>   
+                    <span class="flex justify-center items-center gap-2">
+                    <span>2:42</span>
+                    <i id="8" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:24</span>
+                    <i id="9" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+                <div class=" song-item bg-white text-md w-[50%] flex justify-between items-center gap-4 p-1 rounded-[50px]">
+                    <span class="flex justify-start gap-2 items-center">
+                    <img class=" h-[30px] w-[30px] rounded-[15px]">
+                    <span>songname</span>
+                    </span>
+                    <span class="flex justify-center items-center gap-2">
+                    <span>3:50</span>
+                    <i id="10" class="play_song fa-solid fa-2x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                    </span>
+                </div>
+
+            </div>
+            <div class="song-banner">
+
+            </div>
+    </div>
+    
+    <div class="bottom bg-black text-white h-[130px] w-full relative
+        flex flex-col justify-start p-2 items-center gap-4">
+
+            <input type="range" id="progress_bar" value=0 min="0" max="100" class=" w-[80%] cursor-pointer">
+
+            
+            <div class="flex justify-center items-center gap-4">
+                <i id="prev_song" class=" fa-solid fa-3x fa-backward cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                <i id="master_play" class="fa-solid fa-3x fa-circle-play cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+                <i id="next_song" class=" fa-solid fa-3x fa-forward cursor-pointer hover:opacity-80 hover:scale-110 transition-all duration-200"></i>
+            </div>
+            
+            <div class="song-info flex gap-4 absolute left-[10vw] top-[4vh]">
+                <img id="playing" src="/images/playing.gif" width="40px" height="40px" class=" mb-1 opacity-0 transition-opacity duration-400">
+                <h6 id="current_song" class=" text-sm opacity-0">current song</h6>
+            </div>
+
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/a73ec32697.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
