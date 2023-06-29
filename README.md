@@ -1,4 +1,4 @@
-﻿# Spotify-Clone
+﻿# Spotify-lite
 This is simple version of Spotify. You can:
 1. Add songs.
 2. Play/pause songs.
